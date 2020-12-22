@@ -1,0 +1,19 @@
+name: whoami
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  test:
+    main: src/test.cr
+
+dependencies:
+  grip:
+    github: grip-framework/grip
+  totem:
+    github: icyleaf/totem
+
+crystal: 0.35.1
+
+license: MIT
